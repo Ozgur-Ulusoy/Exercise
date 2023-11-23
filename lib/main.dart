@@ -1,4 +1,4 @@
-import 'package:exercise/feature/home/view/home_view.dart';
+import 'package:exercise/feature/home/view/activity_view.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -13,7 +13,7 @@ class Main extends StatelessWidget {
     return const MaterialApp(
       debugShowCheckedModeBanner: false,
       title: "Exercise",
-      home: HomeView(),
+      home: ActivityView(),
     );
   }
 }
